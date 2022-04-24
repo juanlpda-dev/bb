@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/log.png" type="image/x-icon">
+</head>
+<body class="">
+    <!-- nav-->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img class="logo" src="img/log.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#entradas">Entradas</a></li>
+                  <li><a class="dropdown-item" href="#hamburguesa">Hamburguesas</a></li>
+                  <li><a class="dropdown-item" href="#guarnicion">Guarnición</a></li>
+                  <li><a class="dropdown-item" href="#ensaladas">Ensaladas</a></li>
+                  <li><a class="dropdown-item" href="#pcocina">Platos de Cocina</a></li>
+                  <li><a class="dropdown-item" href="#bebidas">Bebidas</a></li>
+                  <li><a class="dropdown-item" href="#postres">Postres</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" download="menu" href="/img/menu.jpg">Menu del Dia
+                  <img class="des"  class="img-fluid" style="width: 30px; height: 30px;" src="/img/des.png" alt="">
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                  <a href="/contacto.html" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--carousel
+      <div class="container-md bg-dark">
+      <div class="row">
+        <div class="col-sm">
+        <div id="carouselExampleControls" class="carousel slide p-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" style="height: 250px;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" style="height: 250px;" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+        </div>
+      </div>-->
+    <!--entradas-->
+    <section id="entradas">
+      <div class="container-md ">
+        <div class="row pt-5">
+          <h3 class="text-center text-dark pb-3 pt-5 h1">Entradas</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/empanada.jpg" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Empanadas de Carne</h5>
+                <p class="card-text">Empanadas al horno de carne cortada a cuchillo</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/jyq.jpg" class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Empanadas de Jamón y Queso</h5>
+                  <p class="card-text"> Empamadas fritas de Jamón y queso</p>                 
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/provoleta.jpg" class="img-fluid" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Provoleta de Tomate y Albahaca</h5>
+                    <p class="card-text"> Queso provolone, jitomates, albahaca, ajo</p>   
+                  </div>
+                </div>    
+              </div>
+        </div>
+      </div>
+    </section>
+    <!--hamburguesa-->
+    <section id="hamburguesa">
+      <div class="container-md ">
+        <div class="row">
+          <h3 class="text-center pb-3 text-dark h1">Hamburguesa</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/hambur.jpg"class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Hamburguesa</h5>
+                <p class="card-text">Carne de ternera, cheddar, tomate, lechuga.</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/hambur2.jpg"class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Hamburguesa Especial</h5>
+                  <p class="card-text">Carne de res,pan cacero,salsa de tomate,queso cheddar.</p>                 
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/hambur3.jpg" class="img-fluid"class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hamburguesa doble cheddar</h5>
+                    <p class="card-text"> Doble carne de res, panceta, cheddar, aros de cebolla y salsa BBQ.</p>   
+                  </div>
+                </div>    
+              </div>
+        </div>
+      </div>
+    </section>
+     <!--guarnicion-->
+    <section id="guarnicion">
+      <div class="container-md">
+        <div class="row">
+          <h3 class="text-center pb-3 h1">Guarnición</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/pfritas.jpeg" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Papas Fritas</h5>
+                <p class="card-text">Para 2 personas.</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/pacaballo.jpg" class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Papas Fritas a Caballo</h5>
+                  <p class="card-text">Para 2 personas.</p>                 
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/pure.png" class="img-fluid"class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pure de Papa</h5>
+                    <p class="card-text"> Papa, mantequilla, crema agria y rebanadas de Tocino. </p>   
+                  </div>
+                </div>    
+              </div>
+              <div class="row">
+              <div class="col-sm">
+                <div class="card card-border mb-5">
+                   <img src="img/ensarusa.jpg" class="img-fluid" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Pure de Papa</h5>
+                      <p class="card-text"> Papa, mantequilla, crema agria y rebanadas de Tocino. </p>   
+                    </div>
+                  </div>    
+                </div>
+                <div class="col-sm">
+                  <div class="card card-border mb-5">
+                     <img src="img/arroz.webp" class="img-fluid" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Arroz Blanco</h5>
+                        <p class="card-text">Para 1 persona</p>   
+                      </div>
+                    </div>    
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-border mb-5">
+                       <img src="img/purec.webp" class="img-fluid" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Pure de Calabaza</h5>
+                          <p class="card-text"> Papa, mantequilla, crema agria y rebanadas de Tocino. </p>   
+                        </div>
+                      </div>    
+                    </div>
+              </div>
+        </div>
+      </div>
+    </section>
+   <!--ensalada-->
+    <section id="ensaladas">
+      <div class="container-md">
+        <div class="row">
+          <h3 class="text-center pb-3 h1">Ensaladas</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/ensalada.jpeg" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ensalada Chica</h5>
+                <p class="card-text">Ingredientes a eleccion</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/ensalada.jpeg" class="img-fluid " class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Ensalada Completa</h5>
+                  <p class="card-text">Ingredientes a eleccion</p>         
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/ensalada.jpeg" class="img-fluid" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Super Completa</h5>
+                    <p class="card-text">ingredientes a eleccion</p>   
+  
+                  </div>
+                </div>    
+              </div>
+        </div>
+      </div>
+   
+    </section> 
+   <!--pcocina-->
+    <section id="pcocina">
+      <div class="container-md">
+        <div class="row">
+          <h3 class="text-center pb-3 h1">Platos de Cocina</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/suprema.jpg" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Suprema de Pollo</h5>
+                <p class="card-text">Sin guarnición</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/milanapo.jpg" class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Milanesa Napolitana</h5>
+                  <p class="card-text">Sin guarnicion.</p>                          
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/bife.jpg" class="img-fluid"  class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bife de Chorizo</h5>
+                    <p class="card-text">Sin guarnición.</p>   
+                  </div>
+                </div>    
+              </div>
+        </div>
+      </div>
+    </section>
+    <!--bebidas-->
+    <section id="bebidas">
+      <div class="container-md">
+        <div class="row">
+          <h3 class="text-center pb-3 h1">Bebidas</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/coca.webp" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Coca</h5>
+                <p class="card-text">En lata 310</p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/sprite.jpg" class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Sprite</h5>
+                  <p class="card-text"></p> 
+                                 
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/fanta.webp" class="img-fluid" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fanta</h5>
+                    <p class="card-text"></p>   
+                  </div>
+                </div>    
+              </div>
+              <div class="col-sm">
+                <div class="card card-border mb-5">
+                   <img src="img/agua.jpg" class="img-fluid" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Agua C/Sin gas</h5>
+                      <p class="card-text"></p>   
+                    </div>
+                  </div>    
+                </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/levi.jpg"class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Levite</h5>
+                  <p class="card-text"></p>         
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5" >
+                 <img src="img/stella.webp" class="img-fluid" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Stella Artois</h5>
+                    <p class="card-text"></p> 
+                                   
+                  </div>
+                </div>    
+              </div>
+              <div class="col-sm">
+                <div class="card card-border mb-5">
+                   <img src="img/pata.webp" class="img-fluid" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Patagoania Amber Lager </h5>
+                      <p class="card-text"></p>   
+                    </div>
+                  </div>    
+                </div>
+                <div class="col-sm">
+                  <div class="card card-border mb-5">
+                     <img src="img/quilmes.jpg" class="img-fluid" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quilmes</h5>
+                        <p class="card-text"></p>   
+                      </div>
+                    </div>    
+                  </div>
+                
+        </div>
+      </div>
+    </section>
+    <!--postres-->
+    <section id="postres">
+      <div class="container-md">
+        <div class="row">
+          <h3 class="text-center pb-3 h1">Postres</h3>
+        </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card card-border mb-5" >
+             <img src="img/tira.jpg" class="img-fluid" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tiramisú</h5>
+                <p class="card-text"></p>         
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card card-border mb-5" >
+               <img src="img/maca.jpg" class="img-fluid" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Macarons</h5>
+                  <p class="card-text"></p> 
+                                 
+                </div>
+              </div>    
+            </div>
+            <div class="col-sm">
+              <div class="card card-border mb-5">
+                 <img src="img/budin.jpg" class="img-fluid" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Budin de Pan</h5>
+                    <p class="card-text"></p>   
+  
+                  </div>
+                </div>    
+              </div>
+        </div>
+      </div>
+    </section>
+<i class="fas fa-divide    "></i>
+    <!--footer
+    <footer id="footer" class="bg-dark text-center text-white">
+        <div class="container p-2 pb-0">
+          <section class="footer">
+            <form action="">       
+              <div class="row d-flex justify-content-center">    
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Subscribete para recibir novedades</strong>
+                  </p>
+                </div>          
+                <div class="col-md-5 col-12">
+                  entrada de email 
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="email" class="form-control" placeholder="Direccion email"/>
+                  </div>
+                </div>                                   
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">Subscribirse</button>
+                </div>
+              </div>            
+            </form>
+          </section>   
+        </div>
+         Copyright 
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright J
+          <a class="text-white" href=""></a>
+        </div>
+         Copyright 
+      </footer> -->
+      
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container-fluid pt-1 bg-dark text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Ubicacion
+          </h6>
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2357.1861462896077!2d-67.72875673439552!3d-53.7861744107707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b167028130707%3A0xa6b7eed6ce05f52d!2sFacultad%20Regional%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1650687899877!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-2 col-md-5 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Horarios
+          </h6>
+          <p>
+            Lunes a viernes: 12:00 a 16:00 y 18:00 a 00:30
+          </p>
+        </div>
+        <!-- Grid column -->
+
+  <!-- Copyright -->
+  <div class="text-center text-white p-3 bg-black container-fluid" >
+    © 2022 Copyright J
+    
+    <a class="text-white" href=""></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
