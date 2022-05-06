@@ -11,8 +11,8 @@
     <link rel="shortcut icon" href="img/log.png" type="image/x-icon">
 </head>
 <body>
-    <!-- nav-->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+     <!-- nav-->
+     <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
               <img class="logo" src="img/image.png" alt="">
@@ -25,8 +25,6 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
-              
-              
               <li class="nav-item">
                   <a href="/contacto.html" class="nav-link">Contacto</a>
               </li>
@@ -34,66 +32,56 @@
           </div>
         </div>
       </nav>
-<div class="card-header">
-  <div class="card-body">
-    <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-4">
-        <label for="validationCustom01" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="validationCustom01"  required>     
-        <div class="invalid-feedback">
-          Complete el campo
+      <div class="card-header">
+        <div class="card-body">
+          <form class="row g- needs-validation" novalidate>
+            <div class="row pt-3 justify-content-center">
+            <div class="col-md-4">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Formato aceptado ...@..." aria-describedby="emailHelp" required>
+          <div class="invalid-feedback">
+            Complete el campo
+          </div>
+            </div>
+            <div class="row pt-3 justify-content-center">
+              <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Nombre de Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Por favor, ingrese nombre de usuario.
+                    </div>
+                  </div>
+                </div>
+            </div>
+          <div class="row pt-3 justify-content-center">
+              <div class="col-md-4">
+                  <label for="exampleInputPassword1" class="form-label" >Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
+                  <div class="invalid-feedback">
+                      Complete el campo
+                    </div>
+              </div>
+              <div class="row pt-3 justify-content-center">
+                <div class="col-md-4">
+                  <label for="exampleInputPassword1" class="form-label">Repita la contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
+                  <div class="invalid-feedback">
+                      Complete el campo
+                    </div>
+                  </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <label for="validationCustom02" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="validationCustom02" required>
-        <div class="invalid-feedback">
-          Complete el campo
+        <div class="row pt-3 justify-content-center">
+            <div class="col-2 pt-2">
+              <button class="btn btn-success " type="submit">Iniciar sesion</button>
+            </div>
         </div>
-      </div>
-      <div class="row pt-3">
-      <div class="col-md-6">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Formato aceptado ...@..." aria-describedby="emailHelp" required>
-    <div class="invalid-feedback">
-      complete el campo
-    </div>
-      </div>
-    </div>
-      <div class="col-md-5">
-        <label for="validationCustom03" class="form-label">Provincia</label>
-        <input type="text" class="form-control" id="validationCustom03" required>
-        <div class="invalid-feedback">
-          Ingrese una provincia
+            
+          </form>
         </div>
-      </div>
-      <div class="col-md-3">
-        <label for="validationCustom04" class="form-label">Localidad</label>
-        <select class="form-select" id="validationCustom04" required>
-          <option select disebled value=""></option>
-          <option>Rio Grande</option>
-          <option>Tolhuin</option>
-          <option >Ushuaia</option>
-          <option value="">Otra</option>
-        </select>
-        <div class="invalid-feedback">
-          Seleccione una localidad.
         </div>
-      </div>
-      <div class="row pt-3">
-      <div class="col-md-6">
-          <label  >Comentarios Adicionales</label>
-          <textarea class="form-control"  rows="3" placeholder="Opcional"></textarea>
-        </div>
-      </div>
-      
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Enviar Formulario</button>
-        <!--password, date --> 
-      </div>
-    </form>
-  </div>
-  </div>
 
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
